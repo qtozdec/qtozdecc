@@ -19,26 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4033ef4b-4708-4ce6-b4d5-ff2ca50c26f3" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/handlers/users/menu_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/menu_delete.py" afterDir="false" />
+    <list default="true" id="4033ef4b-4708-4ce6-b4d5-ff2ca50c26f3" name="Default Changelist" comment="3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/channels/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/callback_datas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/groups/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/menu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/menu2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/menu3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/menu4.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/menu_new_tracks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/purchase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/menu_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/menu_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/users/sp.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/sp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/default/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/default/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/default/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/default/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/inline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keyboards/inline/choice_buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/choice_buttons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597705796303</updated>
       <workItem from="1597705797413" duration="7055000" />
-      <workItem from="1597757444377" duration="16317000" />
+      <workItem from="1597757444377" duration="18191000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1597758881839</created>
@@ -147,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597758881839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3">
+      <created>1597774817096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597774817096</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,36 +159,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597773471588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597773471588" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597774506658">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1597776107032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597774506658" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597774506658">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597776107032" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1597776107032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597774506658" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597774506658">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597776107032" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1597776107031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597774506658" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597774506658">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597776107031" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1597776107032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597774506658" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597758909934">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597776107032" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597774823226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597758909934" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597774823226" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/udemy_course$app.coverage" NAME="app Coverage Results" MODIFIED="1597774506650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udemy_course$app.coverage" NAME="app Coverage Results" MODIFIED="1597776107004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udemy_course$menu.coverage" NAME="menu Coverage Results" MODIFIED="1597760037141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handlers/users" />
   </component>
 </project>

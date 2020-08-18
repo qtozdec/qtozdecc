@@ -1,4 +1,3 @@
-
 from aiogram.dispatcher.filters import Command, Text
 from aiogram.types import Message, ReplyKeyboardRemove, CallbackQuery
 from keyboards.default import keyboard_add
@@ -36,5 +35,3 @@ async def add_tracks(call: CallbackQuery, callback_data: dict):
     await call.message.answer(add_tracksc(callback_data['playlist'], '34fYycANN382DA6hQixYNP'),
                               reply_markup=ReplyKeyboardRemove())
     await call.message.edit_reply_markup(reply_markup=None)
-
-

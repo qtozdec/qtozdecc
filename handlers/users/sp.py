@@ -12,7 +12,7 @@ def list_playlists():
     for artist in sp.followed_playlists().items:
         listl.append(artist.id)
         listk.append(artist.name)
-    return listl,listk
+    return listl, listk
 
 
 def list_artists():
@@ -52,13 +52,14 @@ def add_to_favorite_tracks(uri):
     list_songs = list_tracks_id(uri)
     list_songs.reverse()
     sp.saved_tracks_add(list_songs)
-    return 'Всё добавлено'
+    return f"Успешно добавлено {len(list_songs)} треков"
 
 
 def delete_favorite_tracks():
     list_songs = favorite_tracks()
     sp.saved_tracks_delete(list_songs)
-    return 'Всё удалено'
+    return f"Успешно удалено {len(list_songs)} треков"
+
 
 def add_new_release(ids_artists):
     songs = list()
@@ -80,6 +81,6 @@ def add_new_release(ids_artists):
     if songs and not (check_playlist.count(now)):
         id_album = sp.playlist_create('om8u6cmy29znuq8xq9n0snlei', now, True).id
         sp.playlist_add(id_album, songs)
-        return (f'Добавлено {len(songs)} новых треков')
+        return f'Добавлено {len(songs)} новых треков'
     else:
-        return ('Нет новых треков')
+        return 'Нет новых треков'

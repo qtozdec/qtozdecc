@@ -1,37 +1,25 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-favorite = ReplyKeyboardMarkup(
+keyboard_add = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text="Добавление в фавориты"),
         ],
         [
-            KeyboardButton(text="Удаление всех фаворитов")
+
+            KeyboardButton(text="Добавление треков"),
         ],
     ],
     resize_keyboard=True
 )
 
-dobudal  = ReplyKeyboardMarkup(
+keyboard_delete = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="Добавление"),
+            KeyboardButton(text="Удаление всех фаворитов")
         ],
         [
-            KeyboardButton(text="Удаление")
-        ],
-    ],
-    resize_keyboard=True
-)
-spisok = ReplyKeyboardMarkup(
-    keyboard=[
-        [
-            KeyboardButton(text="Список артистов"),
-            KeyboardButton(text="Список плейлистов"),
-        ],
-        [
-            KeyboardButton(text="Список треков в плейлисте"),
-            KeyboardButton(text="Список любимых треков")
+            KeyboardButton(text="Удаление треков")
         ],
     ],
     resize_keyboard=True

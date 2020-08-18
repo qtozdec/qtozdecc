@@ -1,5 +1,4 @@
 from datetime import datetime
-
 import tekore as tk
 
 conf = tk.config_from_environment(return_refresh=True)
@@ -32,17 +31,17 @@ def list_tracks_id(playlist):
     return [item.track.id for item in sp.all_items(sp.playlist_items(playlist))]
 
 
-def add_tracks(uri, uri2):
+def add_tracksc(uri, uri2):
     track_list = list_tracks_uri(uri)
     track_list.reverse()
     sp.playlist_add(uri2, track_list)
-    return 'Успешно добавлены треки'
+    return f"Успешно добавлено {len(track_list)} треков"
 
 
-def delete_tracks(id_1, id_2):
+def delete_tracksc(id_1, id_2):
     track_list = list_tracks_uri(id_1)
     sp.playlist_remove(id_2, track_list)
-    return 'Успешно удалены треки'
+    return f"Успешно удалено {len(track_list)} треков"
 
 
 def favorite_tracks():

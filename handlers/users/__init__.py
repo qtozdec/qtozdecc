@@ -1,7 +1,5 @@
-from .menu import dp
-from .sp import sp
-from .menu2 import dp
-from .menu3 import dp
-from .menu4 import dp
-from .purchase import dp
+from .sp import *
+from .menu_delete import dp
+from .menu_add import dp
+from .menu_new_tracks import dp
 __all__ = ["dp"]

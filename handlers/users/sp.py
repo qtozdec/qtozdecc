@@ -9,9 +9,11 @@ sp = tk.Spotify(token, max_limits_on=True, chunked_on=True)
 
 def list_playlists():
     listl = list()
+    listk = list()
     for artist in sp.followed_playlists().items:
         listl.append(artist.id)
-    return listl
+        listk.append(artist.name)
+    return listl,listk
 
 
 def list_artists():

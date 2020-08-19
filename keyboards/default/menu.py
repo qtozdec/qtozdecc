@@ -6,10 +6,12 @@ keyboard_add = ReplyKeyboardMarkup(
             KeyboardButton(text="Добавление в фавориты"),
         ],
         [
-
             KeyboardButton(text="Добавление треков"),
         ],
-    ],
+        [
+            KeyboardButton(text="Назад"),
+        ],
+        ],
     resize_keyboard=True
 )
 
@@ -20,6 +22,9 @@ keyboard_delete = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="Удаление треков")
+        ],
+        [
+            KeyboardButton(text="Назад"),
         ],
     ],
     resize_keyboard=True

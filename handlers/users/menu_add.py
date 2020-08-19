@@ -35,3 +35,8 @@ async def add_tracks(call: CallbackQuery, callback_data: dict):
     await call.message.answer(add_tracksc(callback_data['playlist'], '34fYycANN382DA6hQixYNP'),
                               reply_markup=ReplyKeyboardRemove())
     await call.message.edit_reply_markup(reply_markup=None)
+
+
+@dp.message_handler(text="Назад")
+async def get_food(message: Message):
+    await message.answer('Назад', reply_markup=ReplyKeyboardRemove())

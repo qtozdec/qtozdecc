@@ -8,6 +8,7 @@ choice = InlineKeyboardMarkup()
 choice1 = InlineKeyboardMarkup()
 choice2 = InlineKeyboardMarkup()
 choice3 = InlineKeyboardMarkup()
+cancel_button = InlineKeyboardButton(text="Отмена", callback_data="cancel")
 
 for i in range(len(playlist)):
     button_add_favorite = InlineKeyboardButton(text=playlist[i],
@@ -19,7 +20,8 @@ for i in range(len(playlist)):
     button_delete_tracks = InlineKeyboardButton(text=playlist[i],
                                                 callback_data=my_call.new(playlist=playlists_id[i],
                                                                           method="delete_tracks1"))
-    choice.add(button_add_favorite)
-    choice1.add(button_add_tracks)
-    choice2.add(button_delete_tracks)
-    choice3.add(button_add_tracks2)
+    choice.add(button_add_favorite, cancel_button)
+    choice1.add(button_add_tracks, cancel_button)
+    choice2.add(button_delete_tracks, cancel_button)
+    choice3.add(button_add_tracks2,cancel_button)
+
